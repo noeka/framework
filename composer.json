@@ -1,0 +1,19 @@
+{
+    "name": "noeka/framework",
+    "description": "Noeka Framework",
+    "autoload": {
+        "psr-4": {
+            "Noeka\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathias N. Kastrup",
+            "email": "mathias@noeka.dk"
+        }
+    ],
+    "require": {
+        "noeka/application": "dev-main"
+    },
+    "minimum-stability": "dev"
+}

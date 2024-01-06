@@ -1,0 +1,28 @@
+{
+    "name": "noeka/application",
+    "type": "library",
+    "description": "Application",
+    "scripts": {
+      "analyse": "./vendor/bin/phpstan"
+    },
+    "require": {
+        "php": "^8.3",
+        "psr/container": "^2.0@dev",
+        "noeka/di": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Noeka\\Application\\": "src/Noeka/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathias N. Kastrup"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpstan/phpstan": "2.0.x-dev"
+    }
+}
